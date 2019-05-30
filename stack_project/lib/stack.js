@@ -21,13 +21,16 @@
 // -----------
 
 class Node {
+
     constructor(val) {
         this.value = val;
         this.next = null;
     }
+
 }
 
 class Stack {
+
     constructor() {
         this.top = this.bottom = null;
         this.length = 0;
@@ -63,6 +66,7 @@ class Stack {
     size() {
         return this.length;
     }
+
 }
 
 exports.Node = Node;
