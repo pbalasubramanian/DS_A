@@ -28,6 +28,7 @@ class Node {
 }
 
 class Queue {
+
     constructor() {
         this.front = this.back = null;
         this.length = 0;
@@ -62,6 +63,7 @@ class Queue {
     size() {
         return this.length;
     }
+
 }
 
 exports.Node = Node;
