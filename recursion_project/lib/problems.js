@@ -37,6 +37,7 @@ function lucasNumber(n) {
 // sumArray([5, 2])         // => 7
 // sumArray([4, 10, -1, 2]) // => 15
 function sumArray(array) {
+
     if( array.length === 0 ) return 0;
     if( array.length === 1 ) return array[0];
 
@@ -56,6 +57,7 @@ function sumArray(array) {
 // reverseString("internet")    // => "tenretni"
 // reverseString("friends")     // => "sdneirf"
 function reverseString(str) {
+
     if( str.length === 0 ) return "";
     if( str.length === 1 ) return str;
 
@@ -80,6 +82,7 @@ function reverseString(str) {
 // pow(3, 4)    // => 81
 // pow(2, -5)   // => 0.03125
 function pow(base, exponent) {
+
     if( exponent === 0 ) return 1;
     if( exponent === 1 ) return base;
 
