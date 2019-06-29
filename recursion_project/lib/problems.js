@@ -207,7 +207,6 @@ function pathFinder(directories, targetFile) {
         if (key === targetFile) return "/" + targetFile;
 
         let res = pathFinder(directories[key], targetFile);
-
         if ( res !== null ) {
             return key + res;
         }
